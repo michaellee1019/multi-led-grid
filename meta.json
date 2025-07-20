@@ -1,0 +1,16 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "michaellee1019:multi-led-grid",
+  "visibility": "private",
+  "url": "",
+  "description": "",
+  "models": [
+    {
+      "api": "",
+      "model": ""
+    }
+  ],
+  "applications": null,
+  "entrypoint": "",
+  "first_run": ""
+}
