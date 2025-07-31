@@ -2,15 +2,23 @@
   "$schema": "https://dl.viam.dev/module.schema.json",
   "module_id": "michaellee1019:multi-led-grid",
   "visibility": "private",
-  "url": "",
-  "description": "",
+  "url": "https://github.com/michaellee1019/multi-led-grid",
+  "description": "A module for a ws2812b led grid, wrapping the multi-led component from vijayvuyyuru:multi-led",
   "models": [
     {
-      "api": "",
-      "model": ""
+      "api": "generic",
+      "model": "michaellee1019:multi-led-grid:service"
     }
   ],
   "applications": null,
-  "entrypoint": "",
-  "first_run": ""
+  "entrypoint": "./run.sh",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
 }
